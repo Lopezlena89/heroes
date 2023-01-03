@@ -8,7 +8,7 @@ const CharactersByHero = ({alter_ego,characters})=>{
     :<p>{characters}</p>
 }
 
-export const Herocard = ({
+export const HeroCard = ({
     id,
     superhero,
     publisher,
@@ -24,7 +24,7 @@ export const Herocard = ({
 
 
   return (
-    <div className='col '>
+    <div className='col animate__animated animate__fadeIn'>
         <div className="card">
             <div className="row">
                 <div className="row no-gutters">
