@@ -3,9 +3,6 @@ import { LoginPages } from "../auth"
 import { HeroesRoutes } from '../heroes'
 import { PrivateRoute,PublicRoute } from "./"
 
-
-
-
 export const AppRouter = () => {
   return (
     <>
